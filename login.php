@@ -11,7 +11,7 @@
     <main>
 
         <form action="index.php" method="post">
-            <input type="hidden" name="recap-token" id="g-recap">
+            <!-- <input type="hidden" name="recap-token" id="g-recap"> -->
             <h1>Recaptcha<span class="emphasize">.</span></h1>
             <br><br>
             <input type="text" name="first-name" id="" placeholder="Nom">

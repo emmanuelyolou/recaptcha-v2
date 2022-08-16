@@ -10,7 +10,6 @@ var onloadCallback = function() {
       'sitekey' : '6LchfX4hAAAAAEGeZufbMRmqVz0rB1_EcEduDfb2',
       'callback': ((token) => { 
         console.log(token);
-        document.querySelector("#g-recap").value = token;
         form.submit();
       })
     });
